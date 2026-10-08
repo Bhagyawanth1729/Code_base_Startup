@@ -7,11 +7,8 @@ require (
 	github.com/go-playground/validator/v10 v10.22.1
 	github.com/golang-jwt/jwt/v5 v5.2.1
 	github.com/golang-migrate/migrate/v4 v4.18.1
-	github.com/golang-migrate/migrate/v4/database/postgres v4.5.2
-	github.com/golang-migrate/migrate/v4/source/file v4.6.1
 	github.com/google/uuid v1.6.0
 	github.com/jackc/pgx/v5 v5.5.5
-	github.com/jackc/pgx/v5/pgxpool v5.4.0
 	github.com/prometheus/client_golang v1.19.0
 	github.com/redis/go-redis/v9 v9.5.1
 	github.com/rs/zerolog v1.32.0
@@ -48,4 +45,6 @@ require (
 	golang.org/x/sys v0.21.0 // indirect
 	golang.org/x/text v0.16.0 // indirect
 	google.golang.org/protobuf v1.34.1 // indirect
+        github.com/golang-migrate/migrate/v4 v4.5.2
+        github.com/jackc/pgx/v5 v5.4.0
 )
